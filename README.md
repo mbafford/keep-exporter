@@ -1,3 +1,18 @@
+# About
+
+This is my version of https://github.com/ndbeals/keep-exporter with some extra commits to
+make more of an effort to sync the Google Keep notes with the local filesystem and:
+
+- (optionally) delete local files that don't exist in Keep anymore
+- (optionally) rename notes to match updated titles in Keep
+- allow using a date prefix instead of incrementing count for the start of notes
+- avoid re-downloading notes (and media) that already have been downloaded previously
+
+My hope is this will be merged into the main project, but if not, I will fully fork
+this one off and maintain it according to my vision.
+
+----
+
 # Keep-Exporter
 A command line utility to export Google Keep notes to markdown files with metadata stored as a frontmatter header. 
 
